@@ -1,0 +1,20 @@
+# 派生物：可由 corpus/ 重建，不入库
+index/
+data/*.db
+chunks/
+
+# 本机相关：含绝对路径，各人自行配置（见 README「接进 Claude Code」）
+.mcp.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

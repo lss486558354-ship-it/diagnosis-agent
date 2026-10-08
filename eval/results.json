@@ -1,0 +1,1508 @@
+{
+  "corpus": {
+    "n_chunks": 288,
+    "n_docs": 17,
+    "model": "bge-m3"
+  },
+  "dense_skipped": false,
+  "configs": [
+    {
+      "key": "bm25_only",
+      "label": "纯关键词 (BM25)",
+      "recall_at_k": 0.8,
+      "mrr": 0.5833,
+      "mean_ms": 15.6,
+      "rows": [
+        {
+          "q": "启动工艺流程要发哪个命令",
+          "tag": "命令码",
+          "hit": true,
+          "first_rank": 1,
+          "n_results": 5,
+          "gated": false,
+          "elapsed_ms": 464.0234000980854,
+          "top_source": "scallion/串口命令速查表.md"
+        },
+        {
+          "q": "急停用哪个命令",
+          "tag": "命令码",
+          "hit": true,
+          "first_rank": 2,
+          "n_results": 5,
+          "gated": false,
+          "elapsed_ms": 0.14450028538703918,
+          "top_source": "scallion/上位机通信协议.md"
+        },
+        {
+          "q": "改工艺参数用哪个命令",
+          "tag": "命令码",
+          "hit": true,
+          "first_rank": 1,
+          "n_results": 5,
+          "gated": false,
+          "elapsed_ms": 0.14459993690252304,
+          "top_source": "scallion/串口命令速查表.md"
+        },
+        {
+          "q": "怎么读当前工艺走到哪一步了",
+          "tag": "命令码",
+          "hit": false,
+          "first_rank": null,
+          "n_results": 5,
+          "gated": false,
+          "elapsed_ms": 0.15380000695586205,
+          "top_source": "scallion/飞特总线舵机通讯方法.md"
+        },
+        {
+          "q": "直流电机启动命令是什么",
+          "tag": "命令码",
+          "hit": true,
+          "first_rank": 3,
+          "n_results": 5,
+          "gated": false,
+          "elapsed_ms": 0.17110025510191917,
+          "top_source": "scallion/串口命令速查表.md"
+        },
+        {
+          "q": "步进电机怎么停下来",
+          "tag": "命令码",
+          "hit": false,
+          "first_rank": null,
+          "n_results": 5,
+          "gated": false,
+          "elapsed_ms": 0.1262999139726162,
+          "top_source": "scallion/流程汇报_20260423.md"
+        },
+        {
+          "q": "带方向的调速命令",
+          "tag": "命令码",
+          "hit": true,
+          "first_rank": 3,
+          "n_results": 5,
+          "gated": false,
+          "elapsed_ms": 0.10600034147500992,
+          "top_source": "scallion/项目总览README.md"
+        },
+        {
+          "q": "超声波测距测试命令",
+          "tag": "命令码",
+          "hit": false,
+          "first_rank": null,
+          "n_results": 5,
+          "gated": false,
+          "elapsed_ms": 0.1221001148223877,
+          "top_source": "scallion/串口命令速查表.md"
+        },
+        {
+          "q": "丝杆下限位开关接哪个脚",
+          "tag": "接线",
+          "hit": true,
+          "first_rank": 1,
+          "n_results": 5,
+          "gated": false,
+          "elapsed_ms": 0.11959997937083244,
+          "top_source": "scallion/串口命令速查表.md"
+        },
+        {
+          "q": "急停按钮检测用哪个引脚",
+          "tag": "接线",
+          "hit": true,
+          "first_rank": 1,
+          "n_results": 5,
+          "gated": false,
+          "elapsed_ms": 0.13149995356798172,
+          "top_source": "scallion/继电保护设计.md"
+        },
+        {
+          "q": "飞特总线舵机接哪两个脚",
+          "tag": "接线",
+          "hit": true,
+          "first_rank": 3,
+          "n_results": 5,
+          "gated": false,
+          "elapsed_ms": 0.29090000316500664,
+          "top_source": "scallion/飞特总线舵机通讯方法.md"
+        },
+        {
+          "q": "超声波模块 TRIG 接哪个引脚",
+          "tag": "接线",
+          "hit": true,
+          "first_rank": 1,
+          "n_results": 5,
+          "gated": false,
+          "elapsed_ms": 0.2230997197329998,
+          "top_source": "scallion/流程汇报_20260423.md"
+        },
+        {
+          "q": "HX711 称重模块接哪两个脚",
+          "tag": "接线",
+          "hit": true,
+          "first_rank": 1,
+          "n_results": 5,
+          "gated": false,
+          "elapsed_ms": 0.17660018056631088,
+          "top_source": "scallion/外设接线表.md"
+        },
+        {
+          "q": "OLED 屏走哪个 I2C",
+          "tag": "接线",
+          "hit": true,
+          "first_rank": 2,
+          "n_results": 5,
+          "gated": false,
+          "elapsed_ms": 0.08609984070062637,
+          "top_source": "scallion/固件README.md"
+        },
+        {
+          "q": "膜杆第二节不动作怎么办",
+          "tag": "故障",
+          "hit": true,
+          "first_rank": 1,
+          "n_results": 5,
+          "gated": false,
+          "elapsed_ms": 0.08040014654397964,
+          "top_source": "scallion/流程汇报_20260423.md"
+        },
+        {
+          "q": "电机速度自己变得越来越快",
+          "tag": "故障",
+          "hit": false,
+          "first_rank": null,
+          "n_results": 5,
+          "gated": false,
+          "elapsed_ms": 0.11620018631219864,
+          "top_source": "scallion/上位机通信协议.md"
+        },
+        {
+          "q": "命令帧被拒绝说校验和不匹配",
+          "tag": "故障",
+          "hit": true,
+          "first_rank": 1,
+          "n_results": 5,
+          "gated": false,
+          "elapsed_ms": 0.16729999333620071,
+          "top_source": "scallion/上位机通信协议.md"
+        },
+        {
+          "q": "串口收到的数据老丢帧",
+          "tag": "故障",
+          "hit": false,
+          "first_rank": null,
+          "n_results": 5,
+          "gated": false,
+          "elapsed_ms": 0.1638997346162796,
+          "top_source": "scallion/串口命令汇总表.md"
+        },
+        {
+          "q": "USB-TTL 接 URT-1 之后舵机没反应",
+          "tag": "故障",
+          "hit": true,
+          "first_rank": 1,
+          "n_results": 5,
+          "gated": false,
+          "elapsed_ms": 0.2121003344655037,
+          "top_source": "scallion/飞特总线舵机通讯方法.md"
+        },
+        {
+          "q": "舵机抖动是什么原因",
+          "tag": "故障",
+          "hit": false,
+          "first_rank": null,
+          "n_results": 5,
+          "gated": false,
+          "elapsed_ms": 0.09350012987852097,
+          "top_source": "scallion/STM32F103_USB与URT1舵机通讯.md"
+        },
+        {
+          "q": "打包切断舵机的角度是哪个参数",
+          "tag": "参数",
+          "hit": true,
+          "first_rank": 3,
+          "n_results": 5,
+          "gated": false,
+          "elapsed_ms": 0.14929985627532005,
+          "top_source": "scallion/工艺流程说明.md"
+        },
+        {
+          "q": "称重目标克数的参数 ID",
+          "tag": "参数",
+          "hit": true,
+          "first_rank": 3,
+          "n_results": 5,
+          "gated": false,
+          "elapsed_ms": 0.12609967961907387,
+          "top_source": "scallion/TJC_HMI_事件与协议对照.md"
+        },
+        {
+          "q": "丝杆速度是哪个参数",
+          "tag": "参数",
+          "hit": true,
+          "first_rank": 1,
+          "n_results": 5,
+          "gated": false,
+          "elapsed_ms": 0.09609991684556007,
+          "top_source": "scallion/串口命令汇总表.md"
+        },
+        {
+          "q": "打包模式参数 ID 是多少",
+          "tag": "参数",
+          "hit": true,
+          "first_rank": 1,
+          "n_results": 5,
+          "gated": false,
+          "elapsed_ms": 0.15089986845850945,
+          "top_source": "scallion/串口命令汇总表.md"
+        },
+        {
+          "q": "称重达标要连续保持多久",
+          "tag": "参数",
+          "hit": true,
+          "first_rank": 1,
+          "n_results": 5,
+          "gated": false,
+          "elapsed_ms": 0.08610030636191368,
+          "top_source": "scallion/串口命令汇总表.md"
+        },
+        {
+          "q": "0xAA 帧的校验怎么算",
+          "tag": "综合",
+          "hit": true,
+          "first_rank": 2,
+          "n_results": 5,
+          "gated": false,
+          "elapsed_ms": 0.13320008292794228,
+          "top_source": "scallion/固件README.md"
+        },
+        {
+          "q": "ACK 状态码 0x03 表示什么",
+          "tag": "综合",
+          "hit": true,
+          "first_rank": 3,
+          "n_results": 5,
+          "gated": false,
+          "elapsed_ms": 0.14529982581734657,
+          "top_source": "scallion/上位机通信协议.md"
+        },
+        {
+          "q": "参数 0x2B 是干什么的",
+          "tag": "综合",
+          "hit": true,
+          "first_rank": 2,
+          "n_results": 5,
+          "gated": false,
+          "elapsed_ms": 0.09319977834820747,
+          "top_source": "scallion/TJC_HMI_事件与协议对照.md"
+        },
+        {
+          "q": "Jetson 通过哪个串口和单片机通信",
+          "tag": "综合",
+          "hit": true,
+          "first_rank": 1,
+          "n_results": 5,
+          "gated": false,
+          "elapsed_ms": 0.20139990374445915,
+          "top_source": "scallion/上位机通信协议.md"
+        },
+        {
+          "q": "3D 打印机项目为什么必须切到 Xorg 会话",
+          "tag": "综合",
+          "hit": true,
+          "first_rank": 2,
+          "n_results": 5,
+          "gated": false,
+          "elapsed_ms": 0.2009999006986618,
+          "top_source": "printer/GUIDE.md"
+        }
+      ]
+    },
+    {
+      "key": "dense_only",
+      "label": "纯向量 (语义)",
+      "recall_at_k": 0.7,
+      "mrr": 0.4522,
+      "mean_ms": 41.1,
+      "rows": [
+        {
+          "q": "启动工艺流程要发哪个命令",
+          "tag": "命令码",
+          "hit": true,
+          "first_rank": 1,
+          "n_results": 5,
+          "gated": false,
+          "elapsed_ms": 36.32330009713769,
+          "top_source": "scallion/工艺流程说明.md"
+        },
+        {
+          "q": "急停用哪个命令",
+          "tag": "命令码",
+          "hit": true,
+          "first_rank": 5,
+          "n_results": 5,
+          "gated": false,
+          "elapsed_ms": 35.54779989644885,
+          "top_source": "scallion/继电保护设计.md"
+        },
+        {
+          "q": "改工艺参数用哪个命令",
+          "tag": "命令码",
+          "hit": true,
+          "first_rank": 1,
+          "n_results": 5,
+          "gated": false,
+          "elapsed_ms": 38.57510024681687,
+          "top_source": "scallion/工艺流程说明.md"
+        },
+        {
+          "q": "怎么读当前工艺走到哪一步了",
+          "tag": "命令码",
+          "hit": false,
+          "first_rank": null,
+          "n_results": 5,
+          "gated": false,
+          "elapsed_ms": 36.35690035298467,
+          "top_source": "scallion/工艺流程说明.md"
+        },
+        {
+          "q": "直流电机启动命令是什么",
+          "tag": "命令码",
+          "hit": true,
+          "first_rank": 1,
+          "n_results": 5,
+          "gated": false,
+          "elapsed_ms": 38.11379987746477,
+          "top_source": "scallion/上位机通信协议.md"
+        },
+        {
+          "q": "步进电机怎么停下来",
+          "tag": "命令码",
+          "hit": false,
+          "first_rank": null,
+          "n_results": 5,
+          "gated": false,
+          "elapsed_ms": 47.8511000983417,
+          "top_source": "scallion/上位机通信协议.md"
+        },
+        {
+          "q": "带方向的调速命令",
+          "tag": "命令码",
+          "hit": true,
+          "first_rank": 3,
+          "n_results": 5,
+          "gated": false,
+          "elapsed_ms": 34.90169998258352,
+          "top_source": "scallion/上位机通信协议.md"
+        },
+        {
+          "q": "超声波测距测试命令",
+          "tag": "命令码",
+          "hit": false,
+          "first_rank": null,
+          "n_results": 5,
+          "gated": false,
+          "elapsed_ms": 36.336500197649,
+          "top_source": "scallion/串口命令速查表.md"
+        },
+        {
+          "q": "丝杆下限位开关接哪个脚",
+          "tag": "接线",
+          "hit": true,
+          "first_rank": 1,
+          "n_results": 5,
+          "gated": false,
+          "elapsed_ms": 47.859199810773134,
+          "top_source": "scallion/工艺流程说明.md"
+        },
+        {
+          "q": "急停按钮检测用哪个引脚",
+          "tag": "接线",
+          "hit": true,
+          "first_rank": 1,
+          "n_results": 5,
+          "gated": false,
+          "elapsed_ms": 44.562299735844135,
+          "top_source": "scallion/继电保护设计.md"
+        },
+        {
+          "q": "飞特总线舵机接哪两个脚",
+          "tag": "接线",
+          "hit": true,
+          "first_rank": 2,
+          "n_results": 5,
+          "gated": false,
+          "elapsed_ms": 34.82609987258911,
+          "top_source": "scallion/飞特总线舵机通讯方法.md"
+        },
+        {
+          "q": "超声波模块 TRIG 接哪个引脚",
+          "tag": "接线",
+          "hit": true,
+          "first_rank": 1,
+          "n_results": 5,
+          "gated": false,
+          "elapsed_ms": 34.58259999752045,
+          "top_source": "scallion/外设接线表.md"
+        },
+        {
+          "q": "HX711 称重模块接哪两个脚",
+          "tag": "接线",
+          "hit": true,
+          "first_rank": 1,
+          "n_results": 5,
+          "gated": false,
+          "elapsed_ms": 52.30739992111921,
+          "top_source": "scallion/外设接线表.md"
+        },
+        {
+          "q": "OLED 屏走哪个 I2C",
+          "tag": "接线",
+          "hit": true,
+          "first_rank": 1,
+          "n_results": 5,
+          "gated": false,
+          "elapsed_ms": 34.48559995740652,
+          "top_source": "scallion/外设接线表.md"
+        },
+        {
+          "q": "膜杆第二节不动作怎么办",
+          "tag": "故障",
+          "hit": true,
+          "first_rank": 1,
+          "n_results": 5,
+          "gated": false,
+          "elapsed_ms": 35.98990011960268,
+          "top_source": "scallion/流程汇报_20260423.md"
+        },
+        {
+          "q": "电机速度自己变得越来越快",
+          "tag": "故障",
+          "hit": false,
+          "first_rank": null,
+          "n_results": 5,
+          "gated": false,
+          "elapsed_ms": 33.664199989289045,
+          "top_source": "scallion/固件README.md"
+        },
+        {
+          "q": "命令帧被拒绝说校验和不匹配",
+          "tag": "故障",
+          "hit": true,
+          "first_rank": 1,
+          "n_results": 5,
+          "gated": false,
+          "elapsed_ms": 35.35189991816878,
+          "top_source": "scallion/上位机通信协议.md"
+        },
+        {
+          "q": "串口收到的数据老丢帧",
+          "tag": "故障",
+          "hit": false,
+          "first_rank": null,
+          "n_results": 5,
+          "gated": false,
+          "elapsed_ms": 56.576600298285484,
+          "top_source": "scallion/串口命令速查表.md"
+        },
+        {
+          "q": "USB-TTL 接 URT-1 之后舵机没反应",
+          "tag": "故障",
+          "hit": true,
+          "first_rank": 2,
+          "n_results": 5,
+          "gated": false,
+          "elapsed_ms": 46.13970033824444,
+          "top_source": "scallion/飞特总线舵机通讯方法.md"
+        },
+        {
+          "q": "舵机抖动是什么原因",
+          "tag": "故障",
+          "hit": false,
+          "first_rank": null,
+          "n_results": 5,
+          "gated": false,
+          "elapsed_ms": 35.485600121319294,
+          "top_source": "scallion/飞特总线舵机通讯方法.md"
+        },
+        {
+          "q": "打包切断舵机的角度是哪个参数",
+          "tag": "参数",
+          "hit": true,
+          "first_rank": 4,
+          "n_results": 5,
+          "gated": false,
+          "elapsed_ms": 34.74370017647743,
+          "top_source": "scallion/固件README.md"
+        },
+        {
+          "q": "称重目标克数的参数 ID",
+          "tag": "参数",
+          "hit": true,
+          "first_rank": 4,
+          "n_results": 5,
+          "gated": false,
+          "elapsed_ms": 36.069400142878294,
+          "top_source": "scallion/串口命令速查表.md"
+        },
+        {
+          "q": "丝杆速度是哪个参数",
+          "tag": "参数",
+          "hit": true,
+          "first_rank": 5,
+          "n_results": 5,
+          "gated": false,
+          "elapsed_ms": 39.66079978272319,
+          "top_source": "scallion/串口命令速查表.md"
+        },
+        {
+          "q": "打包模式参数 ID 是多少",
+          "tag": "参数",
+          "hit": false,
+          "first_rank": null,
+          "n_results": 5,
+          "gated": false,
+          "elapsed_ms": 36.40469955280423,
+          "top_source": "scallion/串口命令速查表.md"
+        },
+        {
+          "q": "称重达标要连续保持多久",
+          "tag": "参数",
+          "hit": false,
+          "first_rank": null,
+          "n_results": 5,
+          "gated": false,
+          "elapsed_ms": 37.302200216799974,
+          "top_source": "scallion/TJC_HMI_事件与协议对照.md"
+        },
+        {
+          "q": "0xAA 帧的校验怎么算",
+          "tag": "综合",
+          "hit": false,
+          "first_rank": null,
+          "n_results": 5,
+          "gated": false,
+          "elapsed_ms": 51.61389987915754,
+          "top_source": "scallion/TJC_HMI_事件与协议对照.md"
+        },
+        {
+          "q": "ACK 状态码 0x03 表示什么",
+          "tag": "综合",
+          "hit": true,
+          "first_rank": 3,
+          "n_results": 5,
+          "gated": false,
+          "elapsed_ms": 58.472899720072746,
+          "top_source": "scallion/上位机通信协议.md"
+        },
+        {
+          "q": "参数 0x2B 是干什么的",
+          "tag": "综合",
+          "hit": true,
+          "first_rank": 2,
+          "n_results": 5,
+          "gated": false,
+          "elapsed_ms": 62.21359968185425,
+          "top_source": "scallion/TJC_HMI_事件与协议对照.md"
+        },
+        {
+          "q": "Jetson 通过哪个串口和单片机通信",
+          "tag": "综合",
+          "hit": true,
+          "first_rank": 4,
+          "n_results": 5,
+          "gated": false,
+          "elapsed_ms": 40.727400220930576,
+          "top_source": "scallion/上位机通信协议.md"
+        },
+        {
+          "q": "3D 打印机项目为什么必须切到 Xorg 会话",
+          "tag": "综合",
+          "hit": true,
+          "first_rank": 4,
+          "n_results": 5,
+          "gated": false,
+          "elapsed_ms": 39.49639992788434,
+          "top_source": "printer/GUIDE.md"
+        }
+      ]
+    },
+    {
+      "key": "hybrid",
+      "label": "混合 (RRF)",
+      "recall_at_k": 0.8,
+      "mrr": 0.5428,
+      "mean_ms": 42.4,
+      "rows": [
+        {
+          "q": "启动工艺流程要发哪个命令",
+          "tag": "命令码",
+          "hit": true,
+          "first_rank": 1,
+          "n_results": 5,
+          "gated": false,
+          "elapsed_ms": 36.22560016810894,
+          "top_source": "scallion/工艺流程说明.md"
+        },
+        {
+          "q": "急停用哪个命令",
+          "tag": "命令码",
+          "hit": true,
+          "first_rank": 3,
+          "n_results": 5,
+          "gated": false,
+          "elapsed_ms": 36.097800359129906,
+          "top_source": "scallion/继电保护设计.md"
+        },
+        {
+          "q": "改工艺参数用哪个命令",
+          "tag": "命令码",
+          "hit": true,
+          "first_rank": 1,
+          "n_results": 5,
+          "gated": false,
+          "elapsed_ms": 40.617100428789854,
+          "top_source": "scallion/工艺流程说明.md"
+        },
+        {
+          "q": "怎么读当前工艺走到哪一步了",
+          "tag": "命令码",
+          "hit": false,
+          "first_rank": null,
+          "n_results": 5,
+          "gated": false,
+          "elapsed_ms": 39.38779979944229,
+          "top_source": "scallion/项目总览README.md"
+        },
+        {
+          "q": "直流电机启动命令是什么",
+          "tag": "命令码",
+          "hit": true,
+          "first_rank": 2,
+          "n_results": 5,
+          "gated": false,
+          "elapsed_ms": 47.03960008919239,
+          "top_source": "scallion/串口命令速查表.md"
+        },
+        {
+          "q": "步进电机怎么停下来",
+          "tag": "命令码",
+          "hit": false,
+          "first_rank": null,
+          "n_results": 5,
+          "gated": false,
+          "elapsed_ms": 37.2280003502965,
+          "top_source": "scallion/流程汇报_20260423.md"
+        },
+        {
+          "q": "带方向的调速命令",
+          "tag": "命令码",
+          "hit": true,
+          "first_rank": 3,
+          "n_results": 5,
+          "gated": false,
+          "elapsed_ms": 38.61889988183975,
+          "top_source": "scallion/上位机通信协议.md"
+        },
+        {
+          "q": "超声波测距测试命令",
+          "tag": "命令码",
+          "hit": true,
+          "first_rank": 5,
+          "n_results": 5,
+          "gated": false,
+          "elapsed_ms": 36.405700258910656,
+          "top_source": "scallion/串口命令速查表.md"
+        },
+        {
+          "q": "丝杆下限位开关接哪个脚",
+          "tag": "接线",
+          "hit": true,
+          "first_rank": 1,
+          "n_results": 5,
+          "gated": false,
+          "elapsed_ms": 58.3166996948421,
+          "top_source": "scallion/串口命令速查表.md"
+        },
+        {
+          "q": "急停按钮检测用哪个引脚",
+          "tag": "接线",
+          "hit": true,
+          "first_rank": 1,
+          "n_results": 5,
+          "gated": false,
+          "elapsed_ms": 36.10619995743036,
+          "top_source": "scallion/继电保护设计.md"
+        },
+        {
+          "q": "飞特总线舵机接哪两个脚",
+          "tag": "接线",
+          "hit": true,
+          "first_rank": 2,
+          "n_results": 5,
+          "gated": false,
+          "elapsed_ms": 54.54769963398576,
+          "top_source": "scallion/飞特总线舵机通讯方法.md"
+        },
+        {
+          "q": "超声波模块 TRIG 接哪个引脚",
+          "tag": "接线",
+          "hit": true,
+          "first_rank": 1,
+          "n_results": 5,
+          "gated": false,
+          "elapsed_ms": 35.425900015980005,
+          "top_source": "scallion/外设接线表.md"
+        },
+        {
+          "q": "HX711 称重模块接哪两个脚",
+          "tag": "接线",
+          "hit": true,
+          "first_rank": 1,
+          "n_results": 5,
+          "gated": false,
+          "elapsed_ms": 35.84060026332736,
+          "top_source": "scallion/外设接线表.md"
+        },
+        {
+          "q": "OLED 屏走哪个 I2C",
+          "tag": "接线",
+          "hit": true,
+          "first_rank": 2,
+          "n_results": 5,
+          "gated": false,
+          "elapsed_ms": 34.24439998343587,
+          "top_source": "scallion/固件README.md"
+        },
+        {
+          "q": "膜杆第二节不动作怎么办",
+          "tag": "故障",
+          "hit": true,
+          "first_rank": 1,
+          "n_results": 5,
+          "gated": false,
+          "elapsed_ms": 35.69759987294674,
+          "top_source": "scallion/流程汇报_20260423.md"
+        },
+        {
+          "q": "电机速度自己变得越来越快",
+          "tag": "故障",
+          "hit": false,
+          "first_rank": null,
+          "n_results": 5,
+          "gated": false,
+          "elapsed_ms": 36.06980014592409,
+          "top_source": "scallion/串口命令速查表.md"
+        },
+        {
+          "q": "命令帧被拒绝说校验和不匹配",
+          "tag": "故障",
+          "hit": true,
+          "first_rank": 1,
+          "n_results": 5,
+          "gated": false,
+          "elapsed_ms": 35.62950016930699,
+          "top_source": "scallion/上位机通信协议.md"
+        },
+        {
+          "q": "串口收到的数据老丢帧",
+          "tag": "故障",
+          "hit": false,
+          "first_rank": null,
+          "n_results": 5,
+          "gated": false,
+          "elapsed_ms": 36.087400279939175,
+          "top_source": "scallion/串口命令速查表.md"
+        },
+        {
+          "q": "USB-TTL 接 URT-1 之后舵机没反应",
+          "tag": "故障",
+          "hit": true,
+          "first_rank": 1,
+          "n_results": 5,
+          "gated": false,
+          "elapsed_ms": 53.26840002089739,
+          "top_source": "scallion/飞特总线舵机通讯方法.md"
+        },
+        {
+          "q": "舵机抖动是什么原因",
+          "tag": "故障",
+          "hit": false,
+          "first_rank": null,
+          "n_results": 5,
+          "gated": false,
+          "elapsed_ms": 56.98959995061159,
+          "top_source": "scallion/飞特总线舵机通讯方法.md"
+        },
+        {
+          "q": "打包切断舵机的角度是哪个参数",
+          "tag": "参数",
+          "hit": true,
+          "first_rank": 3,
+          "n_results": 5,
+          "gated": false,
+          "elapsed_ms": 36.518000066280365,
+          "top_source": "scallion/工艺流程说明.md"
+        },
+        {
+          "q": "称重目标克数的参数 ID",
+          "tag": "参数",
+          "hit": true,
+          "first_rank": 4,
+          "n_results": 5,
+          "gated": false,
+          "elapsed_ms": 54.1427000425756,
+          "top_source": "scallion/TJC_HMI_事件与协议对照.md"
+        },
+        {
+          "q": "丝杆速度是哪个参数",
+          "tag": "参数",
+          "hit": true,
+          "first_rank": 2,
+          "n_results": 5,
+          "gated": false,
+          "elapsed_ms": 36.5923997014761,
+          "top_source": "scallion/串口命令速查表.md"
+        },
+        {
+          "q": "打包模式参数 ID 是多少",
+          "tag": "参数",
+          "hit": true,
+          "first_rank": 2,
+          "n_results": 5,
+          "gated": false,
+          "elapsed_ms": 53.55310020968318,
+          "top_source": "scallion/串口命令速查表.md"
+        },
+        {
+          "q": "称重达标要连续保持多久",
+          "tag": "参数",
+          "hit": true,
+          "first_rank": 1,
+          "n_results": 5,
+          "gated": false,
+          "elapsed_ms": 61.23670004308224,
+          "top_source": "scallion/串口命令汇总表.md"
+        },
+        {
+          "q": "0xAA 帧的校验怎么算",
+          "tag": "综合",
+          "hit": false,
+          "first_rank": null,
+          "n_results": 5,
+          "gated": false,
+          "elapsed_ms": 35.78619984909892,
+          "top_source": "scallion/TJC_HMI_事件与协议对照.md"
+        },
+        {
+          "q": "ACK 状态码 0x03 表示什么",
+          "tag": "综合",
+          "hit": true,
+          "first_rank": 3,
+          "n_results": 5,
+          "gated": false,
+          "elapsed_ms": 36.070600152015686,
+          "top_source": "scallion/上位机通信协议.md"
+        },
+        {
+          "q": "参数 0x2B 是干什么的",
+          "tag": "综合",
+          "hit": true,
+          "first_rank": 2,
+          "n_results": 5,
+          "gated": false,
+          "elapsed_ms": 34.61610013619065,
+          "top_source": "scallion/TJC_HMI_事件与协议对照.md"
+        },
+        {
+          "q": "Jetson 通过哪个串口和单片机通信",
+          "tag": "综合",
+          "hit": true,
+          "first_rank": 1,
+          "n_results": 5,
+          "gated": false,
+          "elapsed_ms": 57.08989966660738,
+          "top_source": "scallion/上位机通信协议.md"
+        },
+        {
+          "q": "3D 打印机项目为什么必须切到 Xorg 会话",
+          "tag": "综合",
+          "hit": true,
+          "first_rank": 2,
+          "n_results": 5,
+          "gated": false,
+          "elapsed_ms": 47.05270007252693,
+          "top_source": "printer/GUIDE.md"
+        }
+      ]
+    },
+    {
+      "key": "hybrid_gate",
+      "label": "混合 + 门控",
+      "recall_at_k": 0.8,
+      "mrr": 0.5428,
+      "mean_ms": 43.7,
+      "rows": [
+        {
+          "q": "启动工艺流程要发哪个命令",
+          "tag": "命令码",
+          "hit": true,
+          "first_rank": 1,
+          "n_results": 5,
+          "gated": false,
+          "elapsed_ms": 58.8751002214849,
+          "top_source": "scallion/工艺流程说明.md"
+        },
+        {
+          "q": "急停用哪个命令",
+          "tag": "命令码",
+          "hit": true,
+          "first_rank": 3,
+          "n_results": 5,
+          "gated": false,
+          "elapsed_ms": 34.39070004969835,
+          "top_source": "scallion/继电保护设计.md"
+        },
+        {
+          "q": "改工艺参数用哪个命令",
+          "tag": "命令码",
+          "hit": true,
+          "first_rank": 1,
+          "n_results": 5,
+          "gated": false,
+          "elapsed_ms": 35.3732998482883,
+          "top_source": "scallion/工艺流程说明.md"
+        },
+        {
+          "q": "怎么读当前工艺走到哪一步了",
+          "tag": "命令码",
+          "hit": false,
+          "first_rank": null,
+          "n_results": 5,
+          "gated": false,
+          "elapsed_ms": 35.545199643820524,
+          "top_source": "scallion/项目总览README.md"
+        },
+        {
+          "q": "直流电机启动命令是什么",
+          "tag": "命令码",
+          "hit": true,
+          "first_rank": 2,
+          "n_results": 5,
+          "gated": false,
+          "elapsed_ms": 35.8342002145946,
+          "top_source": "scallion/串口命令速查表.md"
+        },
+        {
+          "q": "步进电机怎么停下来",
+          "tag": "命令码",
+          "hit": false,
+          "first_rank": null,
+          "n_results": 5,
+          "gated": false,
+          "elapsed_ms": 55.69489998742938,
+          "top_source": "scallion/流程汇报_20260423.md"
+        },
+        {
+          "q": "带方向的调速命令",
+          "tag": "命令码",
+          "hit": true,
+          "first_rank": 3,
+          "n_results": 5,
+          "gated": false,
+          "elapsed_ms": 60.50550006330013,
+          "top_source": "scallion/上位机通信协议.md"
+        },
+        {
+          "q": "超声波测距测试命令",
+          "tag": "命令码",
+          "hit": true,
+          "first_rank": 5,
+          "n_results": 5,
+          "gated": false,
+          "elapsed_ms": 60.86430000141263,
+          "top_source": "scallion/串口命令速查表.md"
+        },
+        {
+          "q": "丝杆下限位开关接哪个脚",
+          "tag": "接线",
+          "hit": true,
+          "first_rank": 1,
+          "n_results": 5,
+          "gated": false,
+          "elapsed_ms": 36.79409995675087,
+          "top_source": "scallion/串口命令速查表.md"
+        },
+        {
+          "q": "急停按钮检测用哪个引脚",
+          "tag": "接线",
+          "hit": true,
+          "first_rank": 1,
+          "n_results": 5,
+          "gated": false,
+          "elapsed_ms": 35.54739989340305,
+          "top_source": "scallion/继电保护设计.md"
+        },
+        {
+          "q": "飞特总线舵机接哪两个脚",
+          "tag": "接线",
+          "hit": true,
+          "first_rank": 2,
+          "n_results": 5,
+          "gated": false,
+          "elapsed_ms": 47.41020034998655,
+          "top_source": "scallion/飞特总线舵机通讯方法.md"
+        },
+        {
+          "q": "超声波模块 TRIG 接哪个引脚",
+          "tag": "接线",
+          "hit": true,
+          "first_rank": 1,
+          "n_results": 5,
+          "gated": false,
+          "elapsed_ms": 36.252500023692846,
+          "top_source": "scallion/外设接线表.md"
+        },
+        {
+          "q": "HX711 称重模块接哪两个脚",
+          "tag": "接线",
+          "hit": true,
+          "first_rank": 1,
+          "n_results": 5,
+          "gated": false,
+          "elapsed_ms": 55.70180015638471,
+          "top_source": "scallion/外设接线表.md"
+        },
+        {
+          "q": "OLED 屏走哪个 I2C",
+          "tag": "接线",
+          "hit": true,
+          "first_rank": 2,
+          "n_results": 5,
+          "gated": false,
+          "elapsed_ms": 59.69560006633401,
+          "top_source": "scallion/固件README.md"
+        },
+        {
+          "q": "膜杆第二节不动作怎么办",
+          "tag": "故障",
+          "hit": true,
+          "first_rank": 1,
+          "n_results": 5,
+          "gated": false,
+          "elapsed_ms": 37.28519985452294,
+          "top_source": "scallion/流程汇报_20260423.md"
+        },
+        {
+          "q": "电机速度自己变得越来越快",
+          "tag": "故障",
+          "hit": false,
+          "first_rank": null,
+          "n_results": 5,
+          "gated": false,
+          "elapsed_ms": 36.038999911397696,
+          "top_source": "scallion/串口命令速查表.md"
+        },
+        {
+          "q": "命令帧被拒绝说校验和不匹配",
+          "tag": "故障",
+          "hit": true,
+          "first_rank": 1,
+          "n_results": 5,
+          "gated": false,
+          "elapsed_ms": 47.9615000076592,
+          "top_source": "scallion/上位机通信协议.md"
+        },
+        {
+          "q": "串口收到的数据老丢帧",
+          "tag": "故障",
+          "hit": false,
+          "first_rank": null,
+          "n_results": 5,
+          "gated": false,
+          "elapsed_ms": 35.976100247353315,
+          "top_source": "scallion/串口命令速查表.md"
+        },
+        {
+          "q": "USB-TTL 接 URT-1 之后舵机没反应",
+          "tag": "故障",
+          "hit": true,
+          "first_rank": 1,
+          "n_results": 5,
+          "gated": false,
+          "elapsed_ms": 41.84739990159869,
+          "top_source": "scallion/飞特总线舵机通讯方法.md"
+        },
+        {
+          "q": "舵机抖动是什么原因",
+          "tag": "故障",
+          "hit": false,
+          "first_rank": null,
+          "n_results": 5,
+          "gated": false,
+          "elapsed_ms": 38.06400019675493,
+          "top_source": "scallion/飞特总线舵机通讯方法.md"
+        },
+        {
+          "q": "打包切断舵机的角度是哪个参数",
+          "tag": "参数",
+          "hit": true,
+          "first_rank": 3,
+          "n_results": 5,
+          "gated": false,
+          "elapsed_ms": 36.052600014954805,
+          "top_source": "scallion/工艺流程说明.md"
+        },
+        {
+          "q": "称重目标克数的参数 ID",
+          "tag": "参数",
+          "hit": true,
+          "first_rank": 4,
+          "n_results": 5,
+          "gated": false,
+          "elapsed_ms": 58.384399861097336,
+          "top_source": "scallion/TJC_HMI_事件与协议对照.md"
+        },
+        {
+          "q": "丝杆速度是哪个参数",
+          "tag": "参数",
+          "hit": true,
+          "first_rank": 2,
+          "n_results": 5,
+          "gated": false,
+          "elapsed_ms": 35.28689965605736,
+          "top_source": "scallion/串口命令速查表.md"
+        },
+        {
+          "q": "打包模式参数 ID 是多少",
+          "tag": "参数",
+          "hit": true,
+          "first_rank": 2,
+          "n_results": 5,
+          "gated": false,
+          "elapsed_ms": 55.210300255566835,
+          "top_source": "scallion/串口命令速查表.md"
+        },
+        {
+          "q": "称重达标要连续保持多久",
+          "tag": "参数",
+          "hit": true,
+          "first_rank": 1,
+          "n_results": 5,
+          "gated": false,
+          "elapsed_ms": 35.84370017051697,
+          "top_source": "scallion/串口命令汇总表.md"
+        },
+        {
+          "q": "0xAA 帧的校验怎么算",
+          "tag": "综合",
+          "hit": false,
+          "first_rank": null,
+          "n_results": 5,
+          "gated": false,
+          "elapsed_ms": 35.795300267636776,
+          "top_source": "scallion/TJC_HMI_事件与协议对照.md"
+        },
+        {
+          "q": "ACK 状态码 0x03 表示什么",
+          "tag": "综合",
+          "hit": true,
+          "first_rank": 3,
+          "n_results": 5,
+          "gated": false,
+          "elapsed_ms": 37.37810021266341,
+          "top_source": "scallion/上位机通信协议.md"
+        },
+        {
+          "q": "参数 0x2B 是干什么的",
+          "tag": "综合",
+          "hit": true,
+          "first_rank": 2,
+          "n_results": 5,
+          "gated": false,
+          "elapsed_ms": 36.090499721467495,
+          "top_source": "scallion/TJC_HMI_事件与协议对照.md"
+        },
+        {
+          "q": "Jetson 通过哪个串口和单片机通信",
+          "tag": "综合",
+          "hit": true,
+          "first_rank": 1,
+          "n_results": 5,
+          "gated": false,
+          "elapsed_ms": 35.905399825423956,
+          "top_source": "scallion/上位机通信协议.md"
+        },
+        {
+          "q": "3D 打印机项目为什么必须切到 Xorg 会话",
+          "tag": "综合",
+          "hit": true,
+          "first_rank": 2,
+          "n_results": 5,
+          "gated": false,
+          "elapsed_ms": 60.000000055879354,
+          "top_source": "printer/GUIDE.md"
+        }
+      ]
+    }
+  ],
+  "gate": {
+    "off_domain": {
+      "name": "库外领域（零词汇重叠）",
+      "note": "门控**应该**拦下 —— 拦不住就是缺陷",
+      "total": 10,
+      "blocked": 10,
+      "empty_plain": 0,
+      "noise": 10,
+      "passed_qs": []
+    },
+    "overlap": {
+      "name": "库外领域（有词汇重叠）",
+      "note": "门控判据是「多字词全库零命中」，有词命中就不拦 —— 这是**已知能力边界**，不是 bug",
+      "total": 4,
+      "blocked": 0,
+      "empty_plain": 0,
+      "noise": 4,
+      "passed_qs": [
+        "汽车发动机异响",
+        "手机屏幕碎了换屏多少钱",
+        "打印机卡纸",
+        "笔记本电池鼓包"
+      ]
+    },
+    "pos_total": 30,
+    "pos_gated": 0,
+    "pos_gated_qs": []
+  },
+  "depth": [
+    {
+      "k": 1,
+      "bm25": 0.43333333333333335,
+      "dense": 0.3333333333333333
+    },
+    {
+      "k": 3,
+      "bm25": 0.8,
+      "dense": 0.5
+    },
+    {
+      "k": 5,
+      "bm25": 0.8,
+      "dense": 0.7
+    },
+    {
+      "k": 10,
+      "bm25": 0.8333333333333334,
+      "dense": 0.8
+    },
+    {
+      "k": 20,
+      "bm25": 0.9333333333333333,
+      "dense": 0.8666666666666667
+    },
+    {
+      "k": 50,
+      "bm25": 0.9333333333333333,
+      "dense": 1.0
+    }
+  ],
+  "weight_sweep": [
+    {
+      "bm25_weight": 0.5,
+      "dense_weight": 1.0,
+      "recall": 0.8,
+      "mrr": 0.5455555555555556
+    },
+    {
+      "bm25_weight": 1.0,
+      "dense_weight": 1.0,
+      "recall": 0.8,
+      "mrr": 0.5427777777777778
+    },
+    {
+      "bm25_weight": 1.5,
+      "dense_weight": 1.0,
+      "recall": 0.8333333333333334,
+      "mrr": 0.5494444444444445
+    },
+    {
+      "bm25_weight": 2.0,
+      "dense_weight": 1.0,
+      "recall": 0.8333333333333334,
+      "mrr": 0.5844444444444445
+    },
+    {
+      "bm25_weight": 3.0,
+      "dense_weight": 1.0,
+      "recall": 0.8333333333333334,
+      "mrr": 0.6094444444444445
+    },
+    {
+      "bm25_weight": 5.0,
+      "dense_weight": 1.0,
+      "recall": 0.8333333333333334,
+      "mrr": 0.6122222222222222
+    },
+    {
+      "bm25_weight": 1.0,
+      "dense_weight": 0.3,
+      "recall": 0.8333333333333334,
+      "mrr": 0.6094444444444445
+    },
+    {
+      "bm25_weight": 1.0,
+      "dense_weight": 0.5,
+      "recall": 0.8333333333333334,
+      "mrr": 0.5844444444444445
+    }
+  ],
+  "cases": {
+    "stats": {
+      "总案例数": 28,
+      "已校对": 0,
+      "待校对": 28,
+      "有确定根因": 14,
+      "排查清单类": 14,
+      "数据库": "data\\cases.db"
+    },
+    "top1": 12,
+    "top3": 14,
+    "rows": [
+      {
+        "q": "打包的时候膜杆后半截不动",
+        "expect_id": "CASE-001",
+        "hit_rank": 1,
+        "got_ids": [
+          "CASE-001"
+        ]
+      },
+      {
+        "q": "电机转速越来越快，跟设定对不上",
+        "expect_id": "CASE-002",
+        "hit_rank": 1,
+        "got_ids": [
+          "CASE-002",
+          "CASE-005",
+          "CASE-008"
+        ]
+      },
+      {
+        "q": "发的命令被退回来，说校验不对",
+        "expect_id": "CASE-004",
+        "hit_rank": 1,
+        "got_ids": [
+          "CASE-004",
+          "CASE-005",
+          "CASE-003"
+        ]
+      },
+      {
+        "q": "按了急停但是机器没断电",
+        "expect_id": "CASE-010",
+        "hit_rank": 1,
+        "got_ids": [
+          "CASE-010",
+          "CASE-019",
+          "CASE-005"
+        ]
+      },
+      {
+        "q": "手一松启动键设备就掉电",
+        "expect_id": "CASE-011",
+        "hit_rank": 1,
+        "got_ids": [
+          "CASE-011",
+          "CASE-012",
+          "CASE-006"
+        ]
+      },
+      {
+        "q": "按启动键机器一点反应都没有",
+        "expect_id": "CASE-012",
+        "hit_rank": 1,
+        "got_ids": [
+          "CASE-012",
+          "CASE-022",
+          "CASE-011"
+        ]
+      },
+      {
+        "q": "机器跑着跑着自己断电了",
+        "expect_id": "CASE-014",
+        "hit_rank": 3,
+        "got_ids": [
+          "CASE-010",
+          "CASE-011",
+          "CASE-014"
+        ]
+      },
+      {
+        "q": "换了单独的 USB 转串口模块接 URT-1，舵机就不动了",
+        "expect_id": "CASE-017",
+        "hit_rank": 1,
+        "got_ids": [
+          "CASE-017",
+          "CASE-026",
+          "CASE-001"
+        ]
+      },
+      {
+        "q": "串口收到的数据老是丢",
+        "expect_id": "CASE-018",
+        "hit_rank": 2,
+        "got_ids": [
+          "CASE-009",
+          "CASE-018",
+          "CASE-027"
+        ]
+      },
+      {
+        "q": "急停之后舵机还在转",
+        "expect_id": "CASE-019",
+        "hit_rank": 1,
+        "got_ids": [
+          "CASE-019",
+          "CASE-007",
+          "CASE-010"
+        ]
+      },
+      {
+        "q": "直流电机一点不动，PWM 没输出",
+        "expect_id": "CASE-020",
+        "hit_rank": 1,
+        "got_ids": [
+          "CASE-020",
+          "CASE-008",
+          "CASE-001"
+        ]
+      },
+      {
+        "q": "像素监测里鼠标坐标显示要装 xdotool",
+        "expect_id": "CASE-021",
+        "hit_rank": 1,
+        "got_ids": [
+          "CASE-021",
+          "CASE-023",
+          "CASE-024"
+        ]
+      },
+      {
+        "q": "像素监测框了区域但颜色一直是黑的",
+        "expect_id": "CASE-023",
+        "hit_rank": 1,
+        "got_ids": [
+          "CASE-023",
+          "CASE-021",
+          "CASE-006"
+        ]
+      },
+      {
+        "q": "提示缺 ultralytics，YOLO 起不来",
+        "expect_id": "CASE-028",
+        "hit_rank": 1,
+        "got_ids": [
+          "CASE-028",
+          "CASE-004",
+          "CASE-026"
+        ]
+      }
+    ]
+  }
+}
